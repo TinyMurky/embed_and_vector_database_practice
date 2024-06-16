@@ -8,11 +8,12 @@ packages = [{ include = "app", from = "src" }, { include = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+sentence-transformers = "^3.0.1"
 
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
-start = "src.main:main"
+start = "app.main:main"
 
 [build-system]
 requires = ["poetry-core"]
