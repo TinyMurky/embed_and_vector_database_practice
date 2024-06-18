@@ -9,6 +9,7 @@ packages = [{ include = "app", from = "src" }, { include = "src" }]
 [tool.poetry.dependencies]
 python = "^3.11"
 sentence-transformers = "^3.0.1"
+qdrant-client = "^1.9.1"
 
 [tool.poetry.dev-dependencies]
 

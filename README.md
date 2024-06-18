@@ -29,3 +29,21 @@ print(similarities)
 #         [0.6660, 1.0000, 0.1411],
 #         [0.1046, 0.1411, 1.0000]])
 ```
+
+# docker 啟用
+```
+docker-compose up -d
+or
+docker compose up d
+```
+
+
+# qdrant
+瀏覽器輸入 `http://localhost:6333/dashboard` 即可看到網頁(`http://localhost:6333`可以看到啟動了嗎？)
+
+config.yaml下載：[點我](https://github.com/qdrant/qdrant/blob/master/config/config.yaml)
+找到 下面這個部份可以設定密碼
+```yaml
+service:
+  api_key: your_secret_api_key_here
+```
